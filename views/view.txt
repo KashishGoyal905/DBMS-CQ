@@ -1,0 +1,2 @@
+    
+CREATE OR REPLACE VIEW student_view AS select roll_no as ID,marks from students where marks>75;
