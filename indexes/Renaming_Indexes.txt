@@ -1,0 +1,1 @@
+    ALTER INDEX stud_idx RENAME TO student_index;
