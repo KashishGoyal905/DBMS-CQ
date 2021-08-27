@@ -1,0 +1,4 @@
+CREATE CLUSTER stud_dept_cluster (dept_no INT);
+CREATE INDEX cluster_index ON CLUSTER stud_dept_cluster;
+CREATE TABLE students (rollNo INT, sname VARCHAR2(20), deptno INT) CLUSTER stud_dept_cluster(deptno);
+CREATE TABLE dept (deptno INT, dname VARCHAR(20), d_head VARCHAR2(50)) CLUSTER stud_dept_cluster(deptno);

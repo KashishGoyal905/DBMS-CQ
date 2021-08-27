@@ -1,0 +1,4 @@
+ CREATE INDEX stud_single_idx ON students(rollNo );
+ CREATE INDEX stud_comp_idx on students(fname ,lname);
+ CREATE UNIQUE INDEX stud_uniq_idx ON students(email_id );
+ CREATE index stud_func_idx on students(TRUNC (CGPA,2 ));
