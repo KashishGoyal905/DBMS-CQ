@@ -1,0 +1,2 @@
+   SELECT empno AS "empid" FROM emp e WHERE sal = (SELECT MAX(sal) FROM emp WHERE deptno=e.deptno);
+SELECT empno AS "empid", ename AS "ename" FROM emp e WHERE EXISTS (SELECT empno FROM emp WHERE mgr = e.empno);
