@@ -1,0 +1,1 @@
+    SELECT empno AS "empid" FROM emp e WHERE sal > (SELECT AVG(sal) FROM emp WHERE e.deptno = deptno);
