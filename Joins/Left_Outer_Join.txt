@@ -1,0 +1,2 @@
+select students.roll_no,students.stud_name,stud_marks.marks
+from students left outer join stud_marks on students.roll_no=stud_marks.stud_roll;

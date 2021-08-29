@@ -1,0 +1,1 @@
+  select students.roll_no,students.stud_name,stud_marks.marks from students cross join stud_marks;

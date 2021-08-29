@@ -1,0 +1,1 @@
+select * from students inner join stud_marks on students.roll_no=stud_marks.stud_roll where stud_marks.marks between 30 and 75;
