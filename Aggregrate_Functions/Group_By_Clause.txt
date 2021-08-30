@@ -1,0 +1,1 @@
+   select stud_dept as "dept",count(stud_name) as "cnt" from students group by stud_dept;

@@ -1,0 +1,2 @@
+ select sum(stud_marks) as "sum" from students where stud_dept='ECE'; 
+    select avg(stud_marks) as "average" from students where stud_marks>70;

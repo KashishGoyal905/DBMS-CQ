@@ -1,0 +1,2 @@
+select round(CGPA,2)  as "Rounded" from students ;
+     select TRUNC(CGPA,1)  as "Truncated" from students ;

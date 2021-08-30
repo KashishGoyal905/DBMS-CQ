@@ -1,0 +1,1 @@
+   select stud_dept as "dept",count(roll_no) as "cnt" from students group by stud_dept having stud_dept='CSE' or stud_dept='Mechanical';

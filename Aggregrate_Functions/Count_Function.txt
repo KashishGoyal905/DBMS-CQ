@@ -1,0 +1,1 @@
+  select count(stud_name) as "count" from students where stud_marks>50;
