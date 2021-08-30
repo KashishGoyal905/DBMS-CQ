@@ -1,0 +1,3 @@
+ SELECT ABS(MONTHS_BETWEEN('03/APR/2021',birthdate)) AS "Difference" FROM students;
+SELECT NEXT_DAY(birthdate,'THURSDAY') AS "NextThursday" FROM students;
+SELECT ADD_MONTHS(birthdate,10) AS "AddedMonths" FROM students;

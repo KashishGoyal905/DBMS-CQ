@@ -1,0 +1,1 @@
+  select max(stud_marks) as "highest",min(stud_marks) as "lowest" from students;

@@ -1,0 +1,3 @@
+ select upper(stud_fname) as "upper" from students;
+	select lower(stud_lname) as "lower" from students;
+    select length(stud_full_name) as "length" from students;
