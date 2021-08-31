@@ -1,0 +1,2 @@
+ CREATE TABLE students(id  INT,name  VARCHAR(50) UNIQUE,age INT);
+ALTER TABLE dept ADD UNIQUE (dept_name);
