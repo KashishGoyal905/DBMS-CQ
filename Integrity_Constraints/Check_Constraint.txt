@@ -1,0 +1,2 @@
+CREATE TABLE students(id INT,name VARCHAR(50) ,age INT CHECK (age >15)); 
+    ALTER TABLE dept ADD CONSTRAINT deptCheck CHECK (dept_id  > 100);

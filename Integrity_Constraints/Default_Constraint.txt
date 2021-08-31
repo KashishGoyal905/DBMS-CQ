@@ -1,0 +1,2 @@
+CREATE TABLE students(id INT, name VARCHAR(50),age INT,branch VARCHAR (10) DEFAULT 'CSE');
+ALTER TABLE dept MODIFY dept_name DEFAULT 'ECE';
