@@ -1,0 +1,4 @@
+  UPDATE student SET studentName= 'Sumit Sharma'
+    WHERE rollNo=654;
+    UPDATE student SET semester = 4  WHERE semester is NULL;
+    UPDATE student SET branch  = 'Civil'  WHERE rollNo=655;
