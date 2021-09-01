@@ -1,0 +1,14 @@
+INSERT ALL
+   INTO student (rollNo  , studentName ,branch ,semester)
+   VALUES(106,'Ajay','CSE',4)
+   INTO student (rollNo  , studentName ,branch ,semester)
+   VALUES(107,'Atul','ECE',6)
+   INTO student (rollNo  , studentName ,semester)
+   VALUES(108,'Yuvraj',6)
+   INTO student (rollNo  , studentName ,semester)
+   VALUES(109,'Vaibhav',4)
+   INTO student (rollNo  , studentName ,branch)
+   VALUES(110,'Utkarsh','CSE')
+   INTO student (rollNo  , studentName ,branch)
+   VALUES(111,'Rohit','Civil')
+select * from DUAL;

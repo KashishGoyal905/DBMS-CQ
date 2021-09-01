@@ -1,0 +1,12 @@
+  select rollNo ,studentName
+    from student
+    where semester = 4 and
+    marks >=75;
+    select rollNo ,studentName
+    from student
+    where semester = 6 or
+    branch='ECE';
+    select rollNo
+    from student
+    where marks <40 or
+    branch='CSE';
